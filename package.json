@@ -1,0 +1,13 @@
+{
+  "name": "sharing",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+        "packages/*"
+    ],
+    "nohoist": ["**/react-native", "**/react-native/**", "**/@apollo", "**/@apollo/**", "**/react-dom", "**/react-dom/**"]
+  }
+}
